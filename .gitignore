@@ -1,0 +1,11 @@
+downport/
+output/
+node_modules/
+coverage/
+package-lock.json
+.pyc
+.txt
+abaplint/reports/
+abaplint/full*
+*.log
+abaplint/report*

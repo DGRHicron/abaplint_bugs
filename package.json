@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "abaplint": "npm install && abaplint abaplint.json --outformat junit"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DGRHicron/abaplint_bugs.git"
+  },
+  "devDependencies": {
+    "@abaplint/cli": ">2.113.33"
+  },
+  "dependencies": {
+    "json-merger": "^2.0.0",
+    "merge-json": "^0.1.0-b.3"
+  }
+}

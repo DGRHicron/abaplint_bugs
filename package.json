@@ -9,7 +9,7 @@
     "url": "git+https://github.com/DGRHicron/abaplint_bugs.git"
   },
   "devDependencies": {
-    "@abaplint/cli": ">2.113.36"
+    "@abaplint/cli": ">=2.113.90"
   },
   "dependencies": {
     "json-merger": "^2.0.0",

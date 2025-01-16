@@ -1,13 +1,5 @@
 {
     "dependencies": [
-        {
-            "files": "/src/**/*.*",
-            "url": "https://github.com/abaplint/deps"
-        },
-        {
-            "folder": "/../lint_deps",
-            "files": "/**/*.*"
-        }
     ],
     "global": {
         "exclude": [],

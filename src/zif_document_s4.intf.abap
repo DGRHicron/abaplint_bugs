@@ -22,10 +22,8 @@ INTERFACE zif_document_s4
       WITH UNIQUE KEY billingdocument billingdocumentitem ##NEEDED.
 
   TYPES: BEGIN OF ty_customer ##NEEDED,
-      customer            TYPE zi_customer,
-      address             TYPE zi_address,
-      customer_company    TYPE zi_customercompany,
-      customer_sales_area TYPE zi_customersalesarea,
+      customer TYPE zi_customer,
+      address  TYPE zi_address,
     END OF ty_customer.
 
 

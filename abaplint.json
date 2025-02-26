@@ -375,13 +375,12 @@
         "macro_naming": true,
         "main_file_contents": true,
         "many_parentheses": true,
-        "many_parenthesis": true,
         "max_one_method_parameter_per_line": true,
         "max_one_statement": true,
         "message_exists": true,
         "method_implemented_twice": true,
         "method_length": {
-            "errorWhenEmpty": false,
+            "errorWhenEmpty": true,
             "ignoreTestClasses": true,
             "statements": 80
         },
@@ -530,7 +529,7 @@
         "unused_methods": true,
         "unused_types": true,
         "unused_variables": {
-            "skipAbstract": true,
+            "skipAbstract": false,
             "exclude": []
         },
         "use_bool_expression": true,
